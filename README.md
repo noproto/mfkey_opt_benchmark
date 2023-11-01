@@ -13,6 +13,11 @@ This repository collects benchmarks and flame graphs for upstreaming Crapto1 opt
 * No optimizations involving a GPU or over one terabyte of storage
 * 20 test nonces, mix of unique keys (12) [1](https://github.com/noproto/FlipperMfkey/blob/master/dev/standard_tests/all_min.log) and consecutive real keys (8) [2](https://github.com/noproto/FlipperMfkey/blob/master/dev/standard_tests/all_confirmed_real.log)
 * Observed time is the median time across 50 runs on an unloaded system
+* System specifications:
+  * Ubuntu 23.04
+  * Dual core (dedicated) Intel(R) Xeon(R) Platinum 8280 CPU @ 2.70GHz
+  * 4 GB RAM, ~3 GB free
+  * 23 GB free disk
 
 ## Current benchmark
 
