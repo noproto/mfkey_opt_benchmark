@@ -1,0 +1,3 @@
+[submodule "proxmark3"]
+	path = proxmark3
+	url = https://github.com/RfidResearchGroup/proxmark3
