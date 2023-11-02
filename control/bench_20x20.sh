@@ -1,4 +1,8 @@
 #!/bin/bash
+#
+#
+# /bin/time -f "%e" -o 20x20_32v2.txt ./bench_20x20.sh
+#
 for  i in {1..20}
 do
 	./mfkey32v2 2a234f80 be771bb5 2328dd4a caefa8a9 2be39d62 27c7fe47 3c270451 >/dev/null 2>&1;
